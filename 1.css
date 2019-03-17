@@ -428,4 +428,35 @@ border-color: white;
 padding: 0 0;
 border-spacing: 0 0; 
 }
+
+.circlebar {
+    height: 18px;
+    width: 18px;
+    border-radius: 50px;
+    background: radial-gradient(#0081b5, #0081b5);
+    margin-left: 30px;
+    margin-top:-30px;
+    display:inline-block;
+    padding: 0;
+}
+.circlebargrey {
+    height: 18px;
+    width: 18px;
+    border-radius: 50px;
+    background: radial-gradient(lightgrey, lightgrey);
+    margin-left: 30px;
+    margin-top:-30px;
+    display:inline-block;
+    padding: 0;
+}
+.teamworkplace {
+    margin-left: 110px;
+}
+.innovateplace {
+    margin-left: 110px;
+}
+.communicationplace {
+    margin-left: 110px;
+}
+
 /*чтобы сделать линии справ от текста http://dimox.name/verstka-zagolovka-s-gorizontalnoj-liniej-sleva-i-sprava-ot-teksta/*/-->
