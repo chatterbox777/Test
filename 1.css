@@ -180,15 +180,61 @@ text-transform: uppercase;
         width: 78px;
 height: 73px;
     }
+    .educationline {
+        overflow: hidden;
+    }
+    .educationline::after {
+        content: '';
+        display:inline-block;
+        vertical-align: middle;
+        box-sizing: border-box;
+        width: 223px;
+        height:3px;
+        background:#3d6cb0;
+        border: solid #fff;
+        border-width: 0 10px;
+        margin-right: -100%;
+    }
+
     .experienceimg {
         margin:20px;
         width: 78px;
 height: 73px;
     }
+    .experienceline {
+        overflow: hidden;
+    }
+    .experienceline::after {
+        content: '';
+        display:inline-block;
+        vertical-align: middle;
+        box-sizing: border-box;
+        width: 223px;
+        height:3px;
+        background:#3d6cb0;
+        border: solid #fff;
+        border-width: 0 10px;
+        margin-right: -100%;
+    }
     .softwareimg {
         margin:20px;
         width: 78px;
 height: 73px; 
+    }
+    .softwareline {
+        overflow: hidden;
+    }
+    .softwareline::after {
+        content: '';
+        display:inline-block;
+        vertical-align: middle;
+        box-sizing: border-box;
+        width: 223px;
+        height:3px;
+        background:#3d6cb0;
+        border: solid #fff;
+        border-width: 0 10px;
+        margin-right: -100%;
     }
     .profileimg {
         margin:20px;
@@ -196,22 +242,63 @@ height: 73px;
         width: 78px;
 height: 73px; 
     }
+    .profileline {
+        overflow: hidden;
+    }
+    .profileline::after {
+        content: '';
+        display:inline-block;
+        vertical-align: middle;
+        box-sizing: border-box;
+        width: 223px;
+        height:3px;
+        background:#3d6cb0;
+        border: solid #fff;
+        border-width: 0 10px;
+        margin-right: -100%;
+    }
     .contactimg {
         margin:20px;
         margin-left:-20px;
         width: 78px;
 height: 73px; 
     }
+    .contactline {
+        overflow: hidden;
+    }
+    .contactline::after {
+        content: '';
+        display:inline-block;
+        vertical-align: middle;
+        box-sizing: border-box;
+        width: 223px;
+        height:3px;
+        background:#3d6cb0;
+        border: solid #fff;
+        border-width: 0 10px;
+        margin-right: -100%;
+    }
     .skillsimg {
         margin:20px;
         margin-left:-20px;
         width: 78px;
 height: 73px;   
-
-.bar
-    width: 200px;
+    }
+.skillsline {
+    overflow: hidden;
 }
-
+.skillsline::after {
+    content: '';
+    display:inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 223px;
+    height:3px;
+    background:#3d6cb0;
+    border: solid #fff;
+    border-width: 0 10px;
+    margin-right: -100%;
+}
 .progress-bar {
 	width: 200px;
 	background-color: #e0e0e0;
