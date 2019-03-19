@@ -9,7 +9,9 @@ body {
 }
 ul {
     float:right;
-    width:100%;
+    width: 99%;
+    margin-top: -11px;
+    display: block;
 }
 ul .ullisteducation {
     margin-bottom: 1px;
@@ -25,27 +27,15 @@ text-transform: uppercase;
 float: right;
 margin-right: 30%;
 }
-li {
-width: 100%;
-height: 57px;
-color: #3d6cb0;
-font-family: "Myriad Pro";
-font-size: 30px;
-font-weight: 700;
-text-transform: uppercase;
-float:left;
-margin-right: 20%;
-margin-bottom: 15%;
-position: relative;
-}
+li {font-size: 29px;width: 100%;height: 57px;color: #3d6cb0;font-size: 16px;font-size: 25px;font-weight: 600;text-transform: uppercase;float:left;margin-left: -40px;margin-bottom: 17%;position: relative;width: 100%;padding-top: 1px;}
 .circle {
-    width: 10em; 
-    margin-left: 62.5%;
+    width: 31%;
+    margin-left: 72.8%;
+    margin-top: 40px;
     background: #3d6cb0;
-    border-radius: 70%;
+    border-radius: 74%;
     float: center;
     border: 15px double;
-
 }
 .circle::before {
     content: "";
@@ -84,61 +74,61 @@ min-height: 500px;
 width: 40%;
 float: left;
 }
-.sidebar {                                       /*--------- отвечает за правый блок------------*/
-width: 60%;
-float: right;
-min-height: 500px;
-margin-right: -100px;
-}
+.sidebar {                                       /*--------- ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â²ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂµÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂµÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â·ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â° ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â²ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¹ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âº------------*/width: 44%;float: right;min-height: 500px;margin-right: 60px;margin-top: -11px;}
 footer {
     background-color: aqua;
     height: 200px;
     margin-top: 10px;
     }
     .username {
-        margin-top: 5%;
-        margin-left: 60%;
-        width: 470px;
-    height: 40px;
-    color: #020202;
-    font-family: "Myriad Pro";
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
+        margin-top: 3%;
+        margin-left: 57%;
+        width: 471px;
+        height: 40px;
+        color: #020202;
+        font-family: "Myriad Pro";
+        font-size: 21px;
+        font-weight: 400;
+        text-transform: uppercase;
     }
     .nameherestyle {
-        width: 548px;
-        height: 74px;
+        width: 286px;
+        height: 47px;
         color: #000000;
         font-family: "Myriad Pro - Light Semi Ext";
-        font-size: 34px;
-        font-weight: 400;    
+        font-size: 49px;
+        font-weight: 400;
+        margin-left: 89px;
+        margin-bottom: -43px;
+        display: inline-block;
     }
     .surnamestyle {
         width: 548px;
-        height: 74px;
+        height: 23px;
         color: #000000;
         font-family: "Myriad Pro - Light Semi Ext";
-        font-size: 40px;
-        font-weight: 600;    
+        font-size: 59px;
+        font-weight: 600;
+        margin-left: 90px;
     }
     .graphdesignerstyle {
         width: 548px;
         height: 74px;
         color: #000000;
         font-family: "Myriad Pro - Light Semi Ext";
-        font-size: 16px;
+        font-size: 24px;
         font-weight: 600;
-        margin-left: 15px;
+        margin-left: 109px;
     }
     .profile {
-    margin-top: 158px;
-     padding-left: 15%;
+    margin-top: 175px;
+    margin-left: 174px;
+    padding-left: 37%;
     width: 723px;
     height: 30px;
     color: #020202;
     font-family: "Myriad Pro";
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     display: block;
     }
@@ -153,17 +143,14 @@ footer {
     }
     .contact {
 
-        margin-top: 420px;
-        margin-left: 15%;
-        display: block;
-    }
-    .contact strong {
-color: #3d6cb0;
-font-family: "Myriad Pro";
-font-size: 20px;
-font-weight: 700;
-text-transform: uppercase;
-    }
+margin-top: 336px;
+
+margin-left: 61%;
+
+display: block;
+
+}
+    .contact strong {color: #3d6cb0;font-family: "Myriad Pro";font-size: 33px;font-weight: 700;text-transform: uppercase;}
     .contact strong.title {
         margin-top: 70%;
         margin-left: none;
@@ -176,8 +163,9 @@ font-weight: 700;
 text-transform: uppercase;
     }
     .software strong {
-     margin-bottom: 10%; 
+     margin-bottom: 10%;
      height: 57px;
+     width: 55px;
      color: #3d6cb0;
      font-family: "Myriad Pro";
      font-size: 20px;
@@ -194,16 +182,18 @@ text-transform: uppercase;
      text-transform: uppercase;
     }
     .skills {
-        min-height: 200px;
+        height: 162px;
         width: 500px;
-        margin-left: 15%;
+        margin-left: 62%;
         font-size: 20px;
+        margin-top: -64px;
     }
     .sidebar {
         margin-left:0 auto;
     }
     h2 {
         color:#3d6cb0;
+        margin-left: -67px;
     }
     .educationimg {
         margin:20px;
@@ -267,10 +257,10 @@ height: 73px;
         margin-right: -100%;
     }
     .profileimg {
-        margin:20px;
+        margin: 21px;
         margin-left:-20px;
         width: 78px;
-height: 73px; 
+        height: 73px;
     }
     .profileline {
         overflow: hidden;
@@ -411,7 +401,7 @@ margin-bottom: -10px;
 .progress-bar-fill {
 	display: block;
 	height: 32px;
-	background-color: #659cef;
+	background-color:#3d6cb0;
 	border: 3px;
 	transition: width 500ms ease-in-out;
 }
@@ -421,42 +411,62 @@ padding-bottom: 30px;
 display:block;
 text-align: auto;
 }
-.table {
-width: 10px;
-height:30px;
-border-color: white;
-padding: 0 0;
-border-spacing: 0 0; 
-}
+.table {width: 10px;height:30px;border-color: white;padding: 0 0;border-spacing: 0 0;}
 
 .circlebar {
-    height: 18px;
-    width: 18px;
+    height: 16px;
+    width: 15px;
     border-radius: 50px;
-    background: radial-gradient(#0081b5, #0081b5);
-    margin-left: 30px;
-    margin-top:-30px;
+    background: radial-gradient(#3d6cb0, #3d6cb0);
+    margin-left: 15px;
+    margin-top: -30px;
     display:inline-block;
-    padding: 0;
+    padding: 1px;
 }
 .circlebargrey {
-    height: 18px;
-    width: 18px;
-    border-radius: 50px;
+    height: 16px;
+    width: 14px;
+    border-radius: 84px;
     background: radial-gradient(lightgrey, lightgrey);
-    margin-left: 30px;
-    margin-top:-30px;
+    margin-left: 13px;
+    margin-top: -47px;
     display:inline-block;
     padding: 0;
 }
+.circles {
+    margin-left: 485px;
+    width: 530px;
+}
 .teamworkplace {
+    display: flex;
     margin-left: 110px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 190px;
 }
 .innovateplace {
+    display: flex;
     margin-left: 110px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 190px;
 }
 .communicationplace {
+    display: flex;
     margin-left: 110px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 190px;
 }
 
-/*чтобы сделать линии справ от текста http://dimox.name/verstka-zagolovka-s-gorizontalnoj-liniej-sleva-i-sprava-ot-teksta/*/-->
+.creative {
+    display:flex;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -19px;
+    margin-left: 90px;
+}
+/*ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¹ ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂµÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â² ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂµÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â° http://dimox.name/verstka-zagolovka-s-gorizontalnoj-liniej-sleva-i-sprava-ot-teksta/*/-->
